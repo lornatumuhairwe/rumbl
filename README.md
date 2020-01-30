@@ -1,5 +1,7 @@
 # Rumbl
 
+Coding along with Programming Phoenix 1.4 book.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
