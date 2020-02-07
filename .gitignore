@@ -34,3 +34,4 @@ npm-debug.log
 /priv/static/
 .idea/
 .DS_STORE
+.elixir_ls/

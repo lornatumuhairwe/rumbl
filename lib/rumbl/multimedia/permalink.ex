@@ -1,5 +1,5 @@
 defmodule Rumbl.Multimedia.Permalink do
-  @behaviour Ecto.Type
+  use Ecto.Type
   
   def type, do: :id
   
@@ -18,6 +18,7 @@ defmodule Rumbl.Multimedia.Permalink do
     :error
   end
   
+  @spec dump(integer) :: {:ok, integer}
   def dump(integer) when is_integer(integer) do
     {:ok, integer}
   end
